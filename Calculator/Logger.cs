@@ -5,7 +5,9 @@ namespace Calculator
     {
         public void Event(string message)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(message);
+            Console.ResetColor();
         }
 	
         public void Error(string message)
