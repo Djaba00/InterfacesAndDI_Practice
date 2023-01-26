@@ -1,8 +1,8 @@
 ﻿using System;
 namespace Calculator
 {
-	public class Calculator : ISumOperation
-	{
+    public class Calculator : ISumOperation
+    {
         ILogger Logger { get; }
 
         public Calculator(ILogger logger)
@@ -44,6 +44,6 @@ namespace Calculator
                 throw new Exception("Invalid value!");
             } 
         }
-	}
+    }
 }
 
